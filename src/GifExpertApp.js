@@ -5,11 +5,10 @@ const Gifexpertapp = ()=>{
     
     const [categorias, setCategorias] = useState(['One Punch']);
     
-    //console.log(categorias);
-   
+    
     return (
     <>
-    <h2>Gif Expert</h2>
+    <h2 className="titulo animate__animated animate__fadeInLeft">Buscador de Gifs</h2>
     <AddCategoria setCategorias={setCategorias}></AddCategoria>
     <hr/>
     

@@ -17,7 +17,7 @@ export const AddCategoria = ({setCategorias}) => {
     return (
     
     <form onSubmit={handleSubmit}>
-    <input 
+    <input placeholder='Ingresar el gif a buscar' className='buscador titulo animate__animated animate__fadeInLeft'
         type="text"    
         value={inputValue}
         onChange={ handleInputChange }

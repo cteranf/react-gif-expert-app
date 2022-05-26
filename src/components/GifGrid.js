@@ -13,7 +13,7 @@ const GifGrid = ({categoria}) =>{
 const {data:images,loading} = useFetchGifs(categoria);
 
 return (<>
-        <h3>{categoria}</h3>
+        <h3 className="title-categoria">{categoria}</h3>
         {
             loading && <p>Cargando...</p>
         }
